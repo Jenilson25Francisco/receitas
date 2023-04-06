@@ -2,9 +2,11 @@ import {View, Text, StyleSheet} from 'react-native';
 
 export function Favourites(){
 
-    <View styles={styles.container}>
-        <Text>Página de Favoritos</Text>
-    </View>
+    return(
+        <View styles={styles.container}>
+            <Text>Página de Favoritos</Text>
+        </View>
+    )
 
 }
 
